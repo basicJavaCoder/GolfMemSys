@@ -8,3 +8,7 @@ To use this project
 4) Open the project in Visual Studio 
 5) Edit DBConnect class to include your connection string
 6) Run the project inside VS
+
+Reminder:
+The documentation is in a private repo for privacy sake.
+If you wish to see the specification document please email me.
