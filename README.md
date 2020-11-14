@@ -3,7 +3,7 @@ GolfMemSys for Software Engineering
 
 To use this project
 1) Clone this repo
-2) have Oracle Database installed and a database to connect to started up
+2) Have Oracle Database installed and a database to connect to started up
 3) Open the SQL folder and run the script in the Oracle database to create and populate the tables needed with sample data
 4) Open the project in Visual Studio 
 5) Edit DBConnect class to include your connection string
