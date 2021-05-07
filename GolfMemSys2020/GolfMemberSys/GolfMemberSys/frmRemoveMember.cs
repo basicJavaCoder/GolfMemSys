@@ -66,11 +66,11 @@ namespace GolfMemberSys
                 //Get ID from first column of selected rom and store it as variable gridID
                 int gridID = Convert.ToInt32(grdRemoveMember.Rows[grdRemoveMember.CurrentCell.RowIndex].Cells[0].Value);
 
-                //Retrieve Widget Details
+                //Retrieve Member Details
                 Members singleMember = new Members();
                 singleMember.getSingleMember(gridID);
 
-                //load Widget details onto form
+                //load Member details onto form
                 txtRemoveId.Text = singleMember.getMemberID().ToString();
                 txtRemoveFirstName.Text = singleMember.getFirstName().ToString();
                 txtRemoveLastName.Text = singleMember.getLastName().ToString();
