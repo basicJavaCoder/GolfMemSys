@@ -109,7 +109,7 @@ INSERT INTO GOLFMEMBERSLOG (MEMBERID, FIRSTNAME, LASTNAME, STREET, TOWN, COUNTY,
 VALUES (2, 'Ryuzaki', 'Lawliet', '12 BlankHouse Street', 'Heuston', 'Dublin', '0835462347', 'ryuzaki@deathnote.com', 'Inactive', SYSDATE, 'AD', 'n');
 
 INSERT INTO GOLFMEMBERSLOG (MEMBERID, FIRSTNAME, LASTNAME, STREET, TOWN, COUNTY, MOBILE, EMAIL, MEMBERSTATUS, SIGNUPDATE, TYPEID, PAID) 
-VALUES (3, 'Holo', 'Yiotsu', '34 Wheat Avenue', 'Nenagh', 'Clare', '0934442345', 'holy@spicewolf.com', 'Removed', SYSDATE, 'SR', 'n');
+VALUES (3, 'Holo', 'Yiotsu', '34 Wheat Avenue', 'Nenagh', 'Clare', '0934442345', 'holo@spicewolf.com', 'Removed', SYSDATE, 'SR', 'n');
 
 INSERT INTO RENEWALS (RENEWALID, MEMBERID, AMOUNTPAID, DATEPAID)
 VALUES (1, 1, 435.50, SYSDATE);
